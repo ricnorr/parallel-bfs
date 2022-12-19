@@ -172,9 +172,9 @@ int main() {
     }
   }
 
-//  auto res1 = seq_bfs(graph, 0);
-//  auto res2 = par_bfs(graph, 0);
-//  assert(res1 == res1);
+  auto res1 = seq_bfs(graph, 0);
+  auto res2 = par_bfs(graph, 0);
+  assert(res1 == res2);
 
   long parSum = 0;
   for (int i = 0; i < 5; i++) {
